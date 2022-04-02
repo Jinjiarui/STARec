@@ -1,7 +1,7 @@
 # Search-based Time-Aware Recommendation (STARec)
 
 <p align="center">
-  <img src="image/starec.png" width="400">
+  <img src="image/starec.png" width="500">
   <br />
   <br />
 </p>
