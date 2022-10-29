@@ -2,8 +2,8 @@
 
 <p align="center">
   <img src="image/starec.png" width="500">
-  <br />
-  <br />
+  <br/>
+  <br/>
 </p>
 
 This includes `tensorflow` and `pytorch` implementations of STARec model. This is the experiment code in the following work:
