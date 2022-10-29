@@ -607,11 +607,12 @@ class FMLayer(nn.Module):
     def fm_layer(self, x):
         linear_part = torch.sum(torch.squeeze(self.W1(x)), dim=-1) + self.W0
         x = self.V(x)
-
+        
         interaction_part_1 = torch.pow(torch.sum(x, -1), 2)
         interaction_part_2 = torch.sum(torch.pow(x, 2), -1)
         output = linear_part + 0.5 * torch.sum(
             interaction_part_2 - interaction_part_1, -1, keepdim=False)
+        
         return output
 
     def forward(self, x):
