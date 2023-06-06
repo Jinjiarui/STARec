@@ -13,8 +13,6 @@ This includes `tensorflow` and `pytorch` implementations of STARec model. This i
 Jiarui Jin, Xianyu Chen, Weinan Zhang, Junjie Huang, Ziming Feng, Yong Yu. </br>
 [WWW 2022](https://arxiv.org/pdf/2202.03097.pdf)
 
-This repository also hosts our extended work, which is in submission to ACM TORS.
-
 ### References
 If you find this work helpful in your research, please consider citing the following paper. The bibtex are listed below:
 ```bibtex
